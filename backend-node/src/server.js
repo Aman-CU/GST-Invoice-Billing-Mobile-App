@@ -3,6 +3,10 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import { createClient } from '@supabase/supabase-js';
 import { nanoid } from 'nanoid';
+import cron from 'cron';
+import https from 'https';
+import http from 'http';
+import { URL } from 'url';
 
 dotenv.config();
 
@@ -127,4 +131,45 @@ app.delete('/api/invoices/:id', async (req, res) => {
 
 app.listen(PORT, () => {
   console.log(`Node API listening on http://localhost:${PORT}`);
+  // Keep-alive cron for Render (or similar) to avoid sleeping after 15 minutes
+  try {
+    const externalBase = process.env.API_URL || process.env.PING_URL || process.env.RENDER_EXTERNAL_URL || '';
+    let pingUrl = '';
+    if (externalBase) {
+      try {
+        const base = new URL(externalBase);
+        // If base has no pathname or is the root, target /api; otherwise use base as-is
+        pingUrl = base.pathname === '/' ? new URL('/api', base).toString() : base.toString();
+      } catch {
+        // Fallback: assume provided string is a full URL already
+        pingUrl = externalBase;
+      }
+    }
+
+    if (pingUrl) {
+      const job = new cron.CronJob('*/14 * * * *', function () {
+        try {
+          const u = new URL(pingUrl);
+          const client = u.protocol === 'http:' ? http : https;
+          client
+            .get(pingUrl, (res) => {
+              if (res.statusCode === 200) {
+                console.log(`[keep-alive] GET ${pingUrl} -> 200`);
+              } else {
+                console.log(`[keep-alive] GET ${pingUrl} -> ${res.statusCode}`);
+              }
+            })
+            .on('error', (e) => console.error('[keep-alive] request error', e));
+        } catch (e) {
+          console.error('[keep-alive] invalid URL', e);
+        }
+      });
+      job.start();
+      console.log(`[keep-alive] cron started for ${pingUrl} (every 14 minutes)`);
+    } else {
+      console.log('[keep-alive] No API_URL/RENDER_EXTERNAL_URL configured; cron disabled');
+    }
+  } catch (e) {
+    console.error('[keep-alive] failed to start cron', e);
+  }
 });
