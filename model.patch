@@ -1,0 +1,159 @@
+diff --git a/frontend/.metro-cache/cache/0b/896b807d89338feeece4885fea1357f588038cb9d4aebfead0d57631ecf61a4a82d030 b/frontend/.metro-cache/cache/0b/896b807d89338feeece4885fea1357f588038cb9d4aebfead0d57631ecf61a4a82d030
+new file mode 100644
+index 0000000..10c6380
+--- /dev/null
++++ b/frontend/.metro-cache/cache/0b/896b807d89338feeece4885fea1357f588038cb9d4aebfead0d57631ecf61a4a82d030
+@@ -0,0 +1 @@
++{"dependencies":[{"name":"expo-router","data":{"asyncType":null,"isESMImport":true,"locs":[{"start":{"line":1,"column":0,"index":0},"end":{"line":1,"column":39,"index":39}}],"key":"/+ErnBisjrT6aDU+GRp5Qz/lYoY=","exportNames":["*"],"imports":1}},{"name":"react/jsx-dev-runtime","data":{"asyncType":null,"isESMImport":false,"locs":[],"key":"L9D70Z4hi4aGuui1ysja/oQ5ytI=","exportNames":["*"],"imports":1}}],"output":[{"data":{"code":"__d(function (global, require, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {\n  \"use strict\";\n\n  var _jsxFileName = \"/app/frontend/app/index.tsx\";\n  Object.defineProperty(exports, '__esModule', {\n    value: true\n  });\n  Object.defineProperty(exports, \"default\", {\n    enumerable: true,\n    get: function () {\n      return Index;\n    }\n  });\n  var _expoRouter = require(_dependencyMap[0], \"expo-router\");\n  var _reactJsxDevRuntime = require(_dependencyMap[1], \"react/jsx-dev-runtime\");\n  function Index() {\n    return /*#__PURE__*/(0, _reactJsxDevRuntime.jsxDEV)(_expoRouter.Redirect, {\n      href: \"/(tabs)\"\n    }, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 4,\n      columnNumber: 10\n    }, this);\n  }\n  const styles = StyleSheet.create({\n    container: {\n      flex: 1,\n      backgroundColor: \"#0c0c0c\",\n      alignItems: \"center\",\n      justifyContent: \"center\"\n    },\n    image: {\n      width: \"100%\",\n      height: \"100%\",\n      resizeMode: \"contain\"\n    }\n  });\n});","lineCount":38,"map":[[8,2,3,15,"Object"],[8,8,3,15],[8,9,3,15,"defineProperty"],[8,23,3,15],[8,24,3,15,"exports"],[8,31,3,15],[9,4,3,15,"enumerable"],[9,14,3,15],[10,4,3,15,"get"],[10,7,3,15],[10,18,3,15,"get"],[10,19,3,15],[11,6,3,15],[11,13,3,15,"Index"],[11,18,3,15],[12,4,3,15],[13,2,3,15],[14,2,1,0],[14,6,1,0,"_expoRouter"],[14,17,1,0],[14,20,1,0,"require"],[14,27,1,0],[14,28,1,0,"_dependencyMap"],[14,42,1,0],[15,2,1,39],[15,6,1,39,"_reactJsxDevRuntime"],[15,25,1,39],[15,28,1,39,"require"],[15,35,1,39],[15,36,1,39,"_dependencyMap"],[15,50,1,39],[16,2,3,15],[16,11,3,24,"Index"],[16,16,3,29,"Index"],[16,17,3,29],[16,19,3,32],[17,4,4,2],[17,24,4,9],[17,28,4,9,"_reactJsxDevRuntime"],[17,47,4,9],[17,48,4,9,"jsxDEV"],[17,54,4,9],[17,56,4,10,"_expoRouter"],[17,67,4,18],[17,68,4,18,"Redirect"],[17,76,4,18],[18,6,4,19,"href"],[18,10,4,23],[18,12,4,24],[19,4,4,33],[20,6,4,33,"fileName"],[20,14,4,33],[20,16,4,33,"_jsxFileName"],[20,28,4,33],[21,6,4,33,"lineNumber"],[21,16,4,33],[22,6,4,33,"columnNumber"],[22,18,4,33],[23,4,4,33],[23,11,4,35],[23,12,4,36],[24,2,5,0],[25,2,7,0],[25,8,7,6,"styles"],[25,14,7,12],[25,17,7,15,"StyleSheet"],[25,27,7,25],[25,28,7,26,"create"],[25,34,7,32],[25,35,7,33],[26,4,8,2,"container"],[26,13,8,11],[26,15,8,13],[27,6,9,4,"flex"],[27,10,9,8],[27,12,9,10],[27,13,9,11],[28,6,10,4,"backgroundColor"],[28,21,10,19],[28,23,10,21],[28,32,10,30],[29,6,11,4,"alignItems"],[29,16,11,14],[29,18,11,16],[29,26,11,24],[30,6,12,4,"justifyContent"],[30,20,12,18],[30,22,12,20],[31,4,13,2],[31,5,13,3],[32,4,14,2,"image"],[32,9,14,7],[32,11,14,9],[33,6,15,4,"width"],[33,11,15,9],[33,13,15,11],[33,19,15,17],[34,6,16,4,"height"],[34,12,16,10],[34,14,16,12],[34,20,16,18],[35,6,17,4,"resizeMode"],[35,16,17,14],[35,18,17,16],[36,4,18,2],[37,2,19,0],[37,3,19,1],[37,4,19,2],[38,0,19,3],[38,3]],"functionMap":{"names":["<global>","Index"],"mappings":"AAA;eCE;CDE"},"hasCjsExports":false},"type":"js/module"}]}
+\ No newline at end of file
+diff --git a/frontend/.metro-cache/cache/1c/745383509bb71af29b44d7506db586f588038cb9d4aebfead0d57631ecf61a4a82d030 b/frontend/.metro-cache/cache/1c/745383509bb71af29b44d7506db586f588038cb9d4aebfead0d57631ecf61a4a82d030
+new file mode 100644
+index 0000000..266b807
+--- /dev/null
++++ b/frontend/.metro-cache/cache/1c/745383509bb71af29b44d7506db586f588038cb9d4aebfead0d57631ecf61a4a82d030
+@@ -0,0 +1 @@
++{"dependencies":[{"name":"expo-router","data":{"asyncType":null,"isESMImport":true,"locs":[{"start":{"line":1,"column":0,"index":0},"end":{"line":1,"column":39,"index":39}}],"key":"/+ErnBisjrT6aDU+GRp5Qz/lYoY=","exportNames":["*"],"imports":1}},{"name":"react/jsx-dev-runtime","data":{"asyncType":null,"isESMImport":false,"locs":[],"key":"L9D70Z4hi4aGuui1ysja/oQ5ytI=","exportNames":["*"],"imports":1}}],"output":[{"data":{"code":"__d(function (global, require, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {\n  \"use strict\";\n\n  var _jsxFileName = \"/app/frontend/app/index.tsx\";\n  Object.defineProperty(exports, '__esModule', {\n    value: true\n  });\n  Object.defineProperty(exports, \"default\", {\n    enumerable: true,\n    get: function () {\n      return Index;\n    }\n  });\n  var _expoRouter = require(_dependencyMap[0], \"expo-router\");\n  var _reactJsxDevRuntime = require(_dependencyMap[1], \"react/jsx-dev-runtime\");\n  function Index() {\n    return /*#__PURE__*/(0, _reactJsxDevRuntime.jsxDEV)(_expoRouter.Redirect, {\n      href: \"/(tabs)\"\n    }, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 4,\n      columnNumber: 10\n    }, this);\n  }\n  _c = Index;\n  const styles = StyleSheet.create({\n    container: {\n      flex: 1,\n      backgroundColor: \"#0c0c0c\",\n      alignItems: \"center\",\n      justifyContent: \"center\"\n    },\n    image: {\n      width: \"100%\",\n      height: \"100%\",\n      resizeMode: \"contain\"\n    }\n  });\n  var _c;\n  $RefreshReg$(_c, \"Index\");\n});","lineCount":41,"map":[[8,2,3,15,"Object"],[8,8,3,15],[8,9,3,15,"defineProperty"],[8,23,3,15],[8,24,3,15,"exports"],[8,31,3,15],[9,4,3,15,"enumerable"],[9,14,3,15],[10,4,3,15,"get"],[10,7,3,15],[10,18,3,15,"get"],[10,19,3,15],[11,6,3,15],[11,13,3,15,"Index"],[11,18,3,15],[12,4,3,15],[13,2,3,15],[14,2,1,0],[14,6,1,0,"_expoRouter"],[14,17,1,0],[14,20,1,0,"require"],[14,27,1,0],[14,28,1,0,"_dependencyMap"],[14,42,1,0],[15,2,1,39],[15,6,1,39,"_reactJsxDevRuntime"],[15,25,1,39],[15,28,1,39,"require"],[15,35,1,39],[15,36,1,39,"_dependencyMap"],[15,50,1,39],[16,2,3,15],[16,11,3,24,"Index"],[16,16,3,29,"Index"],[16,17,3,29],[16,19,3,32],[17,4,4,2],[17,24,4,9],[17,28,4,9,"_reactJsxDevRuntime"],[17,47,4,9],[17,48,4,9,"jsxDEV"],[17,54,4,9],[17,56,4,10,"_expoRouter"],[17,67,4,18],[17,68,4,18,"Redirect"],[17,76,4,18],[18,6,4,19,"href"],[18,10,4,23],[18,12,4,24],[19,4,4,33],[20,6,4,33,"fileName"],[20,14,4,33],[20,16,4,33,"_jsxFileName"],[20,28,4,33],[21,6,4,33,"lineNumber"],[21,16,4,33],[22,6,4,33,"columnNumber"],[22,18,4,33],[23,4,4,33],[23,11,4,35],[23,12,4,36],[24,2,5,0],[25,2,5,1,"_c"],[25,4,5,1],[25,7,3,24,"Index"],[25,12,3,29],[26,2,7,0],[26,8,7,6,"styles"],[26,14,7,12],[26,17,7,15,"StyleSheet"],[26,27,7,25],[26,28,7,26,"create"],[26,34,7,32],[26,35,7,33],[27,4,8,2,"container"],[27,13,8,11],[27,15,8,13],[28,6,9,4,"flex"],[28,10,9,8],[28,12,9,10],[28,13,9,11],[29,6,10,4,"backgroundColor"],[29,21,10,19],[29,23,10,21],[29,32,10,30],[30,6,11,4,"alignItems"],[30,16,11,14],[30,18,11,16],[30,26,11,24],[31,6,12,4,"justifyContent"],[31,20,12,18],[31,22,12,20],[32,4,13,2],[32,5,13,3],[33,4,14,2,"image"],[33,9,14,7],[33,11,14,9],[34,6,15,4,"width"],[34,11,15,9],[34,13,15,11],[34,19,15,17],[35,6,16,4,"height"],[35,12,16,10],[35,14,16,12],[35,20,16,18],[36,6,17,4,"resizeMode"],[36,16,17,14],[36,18,17,16],[37,4,18,2],[38,2,19,0],[38,3,19,1],[38,4,19,2],[39,2,19,3],[39,6,19,3,"_c"],[39,8,19,3],[40,2,19,3,"$RefreshReg$"],[40,14,19,3],[40,15,19,3,"_c"],[40,17,19,3],[41,0,19,3],[41,3]],"functionMap":{"names":["<global>","Index"],"mappings":"AAA;eCE;CDE"},"hasCjsExports":false},"type":"js/module"}]}
+\ No newline at end of file
+diff --git a/frontend/.metro-cache/cache/7f/4f4d321ed21d3c2d3adc932071227d43e8963099b248699a697a3934f3aafc645a7a29 b/frontend/.metro-cache/cache/7f/4f4d321ed21d3c2d3adc932071227d43e8963099b248699a697a3934f3aafc645a7a29
+new file mode 100644
+index 0000000..bc78021
+--- /dev/null
++++ b/frontend/.metro-cache/cache/7f/4f4d321ed21d3c2d3adc932071227d43e8963099b248699a697a3934f3aafc645a7a29
+@@ -0,0 +1 @@
++{"dependencies":[],"output":[{"data":{"code":"__d(function (global, require, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {});","lineCount":1,"map":[[1,104]],"functionMap":{"names":["<global>"],"mappings":"AAA"},"hasCjsExports":false},"type":"js/module"}]}
+\ No newline at end of file
+diff --git a/frontend/.metro-cache/cache/c7/c6c8888cedd0d52ff389c99167d55bdc0effa0bc66d4383dd3922a1a5f8e251508223f b/frontend/.metro-cache/cache/c7/c6c8888cedd0d52ff389c99167d55bdc0effa0bc66d4383dd3922a1a5f8e251508223f
+new file mode 100644
+index 0000000..a14129c
+--- /dev/null
++++ b/frontend/.metro-cache/cache/c7/c6c8888cedd0d52ff389c99167d55bdc0effa0bc66d4383dd3922a1a5f8e251508223f
+@@ -0,0 +1 @@
++{"dependencies":[{"name":"@expo/metro-runtime/src/error-overlay/ErrorOverlay","data":{"asyncType":null,"isESMImport":true,"locs":[{"start":{"line":1,"column":0,"index":0},"end":{"line":1,"column":94,"index":94}}],"key":"b0UqVp3wLRUsaymCqGXLSilWlc4=","exportNames":["*"],"imports":1}},{"name":"expo","data":{"asyncType":null,"isESMImport":true,"locs":[{"start":{"line":2,"column":0,"index":95},"end":{"line":2,"column":45,"index":140}}],"key":"PWvtvXU7MaET6Yd1Gn8oQOXJQ8A=","exportNames":["*"],"imports":1}}],"output":[{"data":{"code":"__d(function (global, require, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {\n  \"use strict\";\n\n  var _expoMetroRuntimeSrcErrorOverlayErrorOverlay = require(_dependencyMap[0], \"@expo/metro-runtime/src/error-overlay/ErrorOverlay\");\n  var _expo = require(_dependencyMap[1], \"expo\");\n  (0, _expo.registerRootComponent)(_expoMetroRuntimeSrcErrorOverlayErrorOverlay.LogBoxInspectorContainer);\n});","lineCount":7,"map":[[4,2,1,0],[4,6,1,0,"_expoMetroRuntimeSrcErrorOverlayErrorOverlay"],[4,50,1,0],[4,53,1,0,"require"],[4,60,1,0],[4,61,1,0,"_dependencyMap"],[4,75,1,0],[5,2,2,0],[5,6,2,0,"_expo"],[5,11,2,0],[5,14,2,0,"require"],[5,21,2,0],[5,22,2,0,"_dependencyMap"],[5,36,2,0],[6,2,4,0],[6,6,4,0,"registerRootComponent"],[6,11,4,21],[6,12,4,21,"registerRootComponent"],[6,33,4,21],[6,35,4,22,"LogBoxInspectorContainer"],[6,79,4,46],[6,80,4,46,"LogBoxInspectorContainer"],[6,104,4,46],[6,105,4,47],[7,0,4,48],[7,3]],"functionMap":{"names":["<global>"],"mappings":"AAA"},"hasCjsExports":false},"type":"js/module"}]}
+\ No newline at end of file
+diff --git a/frontend/app/index.tsx b/frontend/app/index.tsx
+index 60b6cda..010a26c 100644
+--- a/frontend/app/index.tsx
++++ b/frontend/app/index.tsx
+@@ -1,30 +1,5 @@
+-import { Text, View, StyleSheet, Image } from "react-native";
+-
+-const EXPO_PUBLIC_BACKEND_URL = process.env.EXPO_PUBLIC_BACKEND_URL;
++import { Redirect } from "expo-router";
+ 
+ export default function Index() {
+-  console.log(EXPO_PUBLIC_BACKEND_URL, "EXPO_PUBLIC_BACKEND_URL");
+-
+-  return (
+-    <View style={styles.container}>
+-      <Image
+-        source={require("../assets/images/app-image.png")}
+-        style={styles.image}
+-      />
+-    </View>
+-  );
++  return <Redirect href="/(tabs)" />;
+ }
+-
+-const styles = StyleSheet.create({
+-  container: {
+-    flex: 1,
+-    backgroundColor: "#0c0c0c",
+-    alignItems: "center",
+-    justifyContent: "center",
+-  },
+-  image: {
+-    width: "100%",
+-    height: "100%",
+-    resizeMode: "contain",
+-  },
+-});
+diff --git a/model.patch b/model.patch
+index 83dc07a..e964dc5 100644
+--- a/model.patch
++++ b/model.patch
+@@ -1,85 +0,0 @@
+-diff --git a/model.patch b/model.patch
+-index 8238ea8..e69de29 100644
+---- a/model.patch
+-+++ b/model.patch
+-@@ -1,80 +0,0 @@
+--diff --git a/test_result.md b/test_result.md
+--index 982b79b..dc86008 100644
+----- a/test_result.md
+--+++ b/test_result.md
+--@@ -107,39 +107,48 @@ user_problem_statement: Build a GST Billing Mobile App with PDF Invoice & Print
+-- backend:
+--   - task: "Shop Details API"
+--     implemented: true
+---    working: "NA"
+--+    working: true
+--     file: "server.py"
+--     stuck_count: 0
+--     priority: "high"
+---    needs_retesting: true
+--+    needs_retesting: false
+--     status_history:
+--         - working: "NA"
+--         - agent: "main"
+--         - comment: "Implemented shop details CRUD endpoints with MongoDB integration"
+--+        - working: true
+--+        - agent: "testing"
+--+        - comment: "✅ PASSED - All shop management endpoints working correctly. Successfully tested: create shop with GST validation, retrieve all shops, get shop by ID. Shop creation with valid GST number (29ABCDE1234F1Z5) successful."
+-- 
+--   - task: "Invoice Management API"
+--     implemented: true
+---    working: "NA"
+--+    working: true
+--     file: "server.py"
+--     stuck_count: 0
+--     priority: "high"
+---    needs_retesting: true
+--+    needs_retesting: false
+--     status_history:
+--         - working: "NA"
+--         - agent: "main"
+--         - comment: "Implemented invoice creation, listing, search, and deletion with GST calculations"
+--+        - working: true
+--+        - agent: "testing"
+--+        - comment: "✅ PASSED - All invoice management endpoints working correctly. Successfully tested: invoice creation with multiple GST rates (5%, 12%, 18%, 28%), automatic invoice numbering (INV1, INV2, INV3, INV4), invoice listing, search by customer name/mobile/invoice number, and invoice deletion. QR code base64 storage working. Minor: Input validation could be stricter (accepts empty customer names and negative quantities)."
+-- 
+--   - task: "GST Calculations & Number to Words"
+--     implemented: true
+---    working: "NA"
+--+    working: true
+--     file: "server.py"
+--     stuck_count: 0
+--     priority: "high"
+---    needs_retesting: true
+--+    needs_retesting: false
+--     status_history:
+--         - working: "NA"
+--         - agent: "main"
+--         - comment: "Implemented automatic GST calculations for multiple tax slabs and amount to words conversion"
+--+        - working: true
+--+        - agent: "testing"
+--+        - comment: "✅ PASSED - GST calculations and amount to words conversion working perfectly. Verified CGST = SGST = GST_rate/2 for all tax slabs (5%, 12%, 18%, 28%). Discount calculations accurate. Final amount rounding correct. Amount to words conversion working for various amounts (₹1000 → 'One Thousand Rupees Only', ₹5000 → 'Five Thousand Rupees Only', ₹10000 → 'Ten Thousand Rupees Only'). Edge cases handled correctly (zero discount, high quantities)."
+-- 
+-- frontend:
+--   - task: "Tab Navigation Setup"
+--@@ -209,14 +218,13 @@ metadata:
+--   run_ui: false
+-- 
+-- test_plan:
+---  current_focus:
+---    - "Shop Details API"
+---    - "Invoice Management API" 
+---    - "GST Calculations & Number to Words"
+--+  current_focus: []
+--   stuck_tasks: []
+--   test_all: false
+--   test_priority: "high_first"
+-- 
+-- agent_communication:
+--     - agent: "main"
+---    - message: "Completed initial implementation of GST Billing Mobile App with full backend API and React Native frontend. Backend includes shop management, invoice CRUD with GST calculations, and number-to-words conversion. Frontend includes tab navigation, invoice creation form with QR code support, invoice management with PDF generation, and settings. Ready for backend testing."
+--\ No newline at end of file
+--+    - message: "Completed initial implementation of GST Billing Mobile App with full backend API and React Native frontend. Backend includes shop management, invoice CRUD with GST calculations, and number-to-words conversion. Frontend includes tab navigation, invoice creation form with QR code support, invoice management with PDF generation, and settings. Ready for backend testing."
+--+    - agent: "testing"
+--+    - message: "✅ BACKEND TESTING COMPLETE - Comprehensive testing of GST Billing API completed with 90.9% success rate (20/22 tests passed). All core functionalities working perfectly: Shop management, Invoice CRUD operations, GST calculations for all tax slabs (5%, 12%, 18%, 28%), automatic invoice numbering, amount to words conversion, search functionality, and QR code storage. Only minor validation issues found (accepts empty customer names and negative quantities) but core business logic is solid. API is production-ready for GST billing operations."
+--\ No newline at end of file
